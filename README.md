@@ -10,7 +10,7 @@ TODO Link
 
 Zur Ausführung des Microservice ist dieser von GitHub zu laden.
 Java sollte mindestens in Version 1.7 und Maven in Version 3.0.5 installiert sein. 
-Dazu muss eine Installation der MongoDB auf dem Rechner eingerichtet sein, die unter dem Standard Port 27017 läuft.
+Dazu muss eine MongoDB, die unter dem Standard Port 27017 läuft, eingerichtet sein.
 Unterstützung bei der Installation der einzelnen Technologien ist unter diesen Links zu finden:
 
 Java    - Https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
