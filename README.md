@@ -31,4 +31,4 @@ gestartet werden. Der Microservice ist dann unter
 Http://localhost:8080/start.html
 
 erreichbar. Dies ist eine Startseite, welche auf drei verschiedene Testseiten verweist,
-auf denen der Microservice über ein <iframe>-Element eingebunden ist.
+auf denen der Microservice über ein iframe-Element eingebunden ist.
