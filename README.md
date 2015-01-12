@@ -22,6 +22,13 @@ MongoDB - Http://docs.mongodb.org/manual/installation/
 Für die Anwendung selber muss Port 8080 frei gehalten werden.
 Ist das Projekt von GitHub geladen kann dieses mit Maven gebaut werden. 
 Das dabei entstehende JAR im target Verzeichnis umfasst dann den gesamten Microservice. 
-Dieser kann über die CLI gestartet werden. Der Microservice ist dann unter http://localhost:8080/start.html erreichbar.
-Dies ist eine Startseite, welche auf drei verschiedene Testseiten verweist,
+Dieser kann über die CLI mittels 
+
+"java -jar NameDesJARS.jar"
+
+gestartet werden. Der Microservice ist dann unter 
+
+Http://localhost:8080/start.html
+
+erreichbar. Dies ist eine Startseite, welche auf drei verschiedene Testseiten verweist,
 auf denen der Microservice über ein <iframe>-Element eingebunden ist.
