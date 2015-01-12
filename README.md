@@ -14,7 +14,9 @@ Dazu muss eine Installation der MongoDB auf dem Rechner eingerichtet sein, die u
 Unterstützung bei der Installation der einzelnen Technologien ist unter diesen Links zu finden:
 
 Java    - Https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
+
 Maven   - Http://maven.apache.org/download.cgi
+
 MongoDB - Http://docs.mongodb.org/manual/installation/
 
 Für die Anwendung selber muss Port 8080 frei gehalten werden.
