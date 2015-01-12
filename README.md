@@ -4,6 +4,7 @@ Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Techologien Sp
 Spring MVC, Spring Data MongoDB, AngularJS, Bootstrap und MongoDB.
 
 Weitere Informationen über den microservice-quickstart gibt es im adesso Blog: 
+
 TODO Link
 
 # Installation & Start
