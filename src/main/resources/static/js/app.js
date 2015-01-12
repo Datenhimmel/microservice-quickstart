@@ -1,6 +1,6 @@
-var ugcEnabler = angular.module('UGCEnabler',['ngRoute']);
+var commentApp = angular.module('CommentApp',['ngRoute']);
 
-ugcEnabler.config(function($routeProvider, $locationProvider) {
+commentApp.config(function($routeProvider, $locationProvider) {
 	$routeProvider
 	.when('/:artikel', {
 	  templateUrl: 'templates/home.html',
@@ -8,7 +8,7 @@ ugcEnabler.config(function($routeProvider, $locationProvider) {
 	})
 });
 
-ugcEnabler.controller('CommentCtrl', function ($scope, $http, $routeParams) {
+commentApp.controller('CommentCtrl', function ($scope, $http, $routeParams) {
 	
 	var articleID = $routeParams.artikel;
 	$scope.buttonName = 'Kommentar abschicken';
