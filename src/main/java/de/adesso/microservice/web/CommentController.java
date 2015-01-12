@@ -16,28 +16,28 @@ import de.adesso.microservice.domain.CommentRepository;
 @RestController
 @RequestMapping("/comments")
 public class CommentController {
-	
+
 	@Autowired
 	CommentRepository commentRepository;
 
-	@RequestMapping(value="/{articleID}", method=RequestMethod.GET)
+	@RequestMapping(value = "/{articleID}", method = RequestMethod.GET)
 	public List<Comment> getComments(@PathVariable String articleID) {
 		return commentRepository.findByArticleID(articleID);
 	}
 
-	@RequestMapping(value="/{articleID}/{id}", method=RequestMethod.GET)
-    public Comment getComment(@PathVariable String articleID, @PathVariable String id) {
+	@RequestMapping(value = "/{articleID}/{id}", method = RequestMethod.GET)
+	public Comment getComment(@PathVariable String articleID, @PathVariable String id) {
 		return commentRepository.findOne(id);
-    }
-    
-    @RequestMapping(method=RequestMethod.POST)
-    public void addComment(@RequestBody Comment comment) {
-    	comment.setCreatedOn(new Date());
-    	commentRepository.save(comment);
-    }
-    
-    @RequestMapping(value="/{articleID}/{id}", method=RequestMethod.DELETE)
-    public void deleteComment(@PathVariable String articleID, @PathVariable String id) {
-    	commentRepository.delete(id);
-    }
+	}
+
+	@RequestMapping(method = RequestMethod.POST)
+	public void addComment(@RequestBody Comment comment) {
+		comment.setCreatedOn(new Date());
+		commentRepository.save(comment);
+	}
+
+	@RequestMapping(value = "/{articleID}/{id}", method = RequestMethod.DELETE)
+	public void deleteComment(@PathVariable String articleID, @PathVariable String id) {
+		commentRepository.delete(id);
+	}
 }
