@@ -1,4 +1,4 @@
-# microservice-quickstart
+# Microservice-Quickstart
 
 Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Techologien Spring Boot, 
 Spring MVC, Spring Data MongoDB, AngularJS, Bootstrap und MongoDB.
