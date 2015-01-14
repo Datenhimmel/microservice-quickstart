@@ -25,7 +25,7 @@ Ist das Projekt von GitHub geladen kann dieses mit Maven gebaut werden.
 Das dabei entstehende JAR im "target" Verzeichnis umfasst dann den gesamten Microservice. 
 Dieser kann über die CLI mittels 
 
-"java -jar microservice-quickstart-1.0.jar"
+```java -jar microservice-quickstart-1.0.jar```
 
 gestartet werden. Der Microservice ist dann unter 
 
