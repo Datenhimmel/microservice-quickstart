@@ -33,3 +33,7 @@ Http://localhost:8080/start.html
 
 erreichbar. Dies ist eine Startseite, welche auf drei verschiedene Testseiten verweist,
 auf denen der Microservice über ein iframe-Element eingebunden ist.
+
+# Lizenz
+
+Dieses Projekt microservice-quickstart ist unter der MIT License verfügbar. Mehr Informationen dazu in der LICENSE Datei.
