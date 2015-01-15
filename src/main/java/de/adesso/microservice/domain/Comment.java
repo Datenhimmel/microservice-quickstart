@@ -1,16 +1,17 @@
 package de.adesso.microservice.domain;
 
 import java.util.Date;
-import lombok.Getter;
-import lombok.Setter;
+
+import lombok.Data;
+
 import org.springframework.data.annotation.Id;
 
-public class Comment {
+@Data public class Comment {
 	
-	@Id @Setter @Getter private String id;
-	@Setter @Getter private String articleID;
-	@Setter @Getter private String title;
-	@Setter @Getter private String content;
-	@Setter @Getter private Date createdOn;
-	@Setter @Getter private User author;
+	@Id private String id;
+	private String articleID;
+	private String title;
+	private String content;
+	private Date createdOn;
+	private User author;
 }

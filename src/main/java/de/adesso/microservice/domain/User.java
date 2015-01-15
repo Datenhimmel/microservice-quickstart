@@ -1,9 +1,8 @@
 package de.adesso.microservice.domain;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-public class User {
-	@Setter @Getter private String firstName;
-	@Setter @Getter private String lastName;
+@Data public class User {
+	private String firstName;
+	private String lastName;
 }
