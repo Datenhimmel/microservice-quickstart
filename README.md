@@ -36,4 +36,4 @@ auf denen der Microservice über ein iframe-Element eingebunden ist.
 
 # Lizenz
 
-Dieses Projekt ist unter der MIT License verfügbar. Mehr Informationen dazu in der LICENSE Datei.
+Dieses Projekt steht unter der MIT License. Mehr Informationen dazu in der LICENSE Datei.
