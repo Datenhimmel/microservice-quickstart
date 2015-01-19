@@ -4,7 +4,7 @@ Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Technologien [
 
 Weitere Informationen gibt es im adesso Blog Artikel [Microservice in 5 Minuten](http://blog.adesso.de).
 
-# Installation & Start
+## Installation & Start
 
 Zur Ausführung des Microservice ist dieser von GitHub zu laden.
 Java sollte mindestens in Version 1.7 und Maven in Version 3.0.5 installiert sein. 
@@ -27,6 +27,6 @@ ausgeführt werden. Der Microservice ist nach dem Start unter
 erreichbar. Dies ist eine Startseite, welche auf drei verschiedene Testseiten verweist,
 auf denen der Microservice über ein HTML-iframe-Element eingebunden ist.
 
-# Lizenz
+## Lizenz
 
 Dieses Projekt steht unter der MIT License. Mehr Informationen dazu in der LICENSE Datei.
