@@ -1,6 +1,6 @@
 # Microservice-Quickstart
 
-Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Techologien Spring Boot, 
+Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Technologien Spring Boot, 
 Spring MVC, Spring Data MongoDB, AngularJS, Bootstrap und MongoDB.
 
 Weitere Informationen über den microservice-quickstart gibt es im adesso Blog: 
@@ -21,13 +21,13 @@ Maven   - Http://maven.apache.org/download.cgi
 MongoDB - Http://docs.mongodb.org/manual/installation/
 
 Für die Anwendung selber muss Port 8080 frei gehalten werden.
-Ist das Projekt von GitHub geladen kann dieses mit Maven gebaut werden. 
-Das dabei entstehende JAR im "target" Verzeichnis umfasst dann den gesamten Microservice. 
-Dieser kann über die CLI mittels 
+Ist das Projekt von GitHub geladen kann dieses mit Maven gebaut werden.
+Das ```spring-boot-maven-plugin``` sorgt dafür, dass im "target" Verzeichnis ein "Fat" Jar erstellt wird. 
+Dieses umfasst dann den gesamten Microservice und kann über die CLI mittels 
 
 ```java -jar microservice-quickstart-1.0.jar```
 
-gestartet werden. Der Microservice ist dann unter 
+ausgeführt werden. Der Microservice ist dann unter 
 
 Http://localhost:8080/start.html
 
