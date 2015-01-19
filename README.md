@@ -2,7 +2,7 @@
 
 Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Technologien [Spring Boot](https://github.com/spring-projects/spring-boot), [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html), [Spring Data MongoDB](https://github.com/spring-projects/spring-data-mongodb), [AngularJS](https://github.com/angular/angular.js), [Bootstrap](https://github.com/twbs/bootstrap) und [MongoDB](https://github.com/mongodb/mongo).
 
-Weitere Informationen über den microservice-quickstart gibt es im adesso Blog Artikel [Microservice in 5 Minuten](http://blog.adesso.de).
+Weitere Informationen gibt es im adesso Blog Artikel [Microservice in 5 Minuten](http://blog.adesso.de).
 
 # Installation & Start
 
