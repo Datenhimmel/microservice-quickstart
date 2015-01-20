@@ -32,9 +32,10 @@ public class CommentControllerTest {
 	};
 
 	/**
-	 * Test nur bei im Hintergrund laufender MongoDB ausführbar. 
+	 * Integrationstest
+	 * MongoDB-Instanz muss gestartet sein, damit dieser Test ausführbar ist.
 	 */
-	// @Test
+	@Test
 	public void testAddCommentAndGetCommentsAndDeleteComment() {
 		
 		// Test-Kommentar-Objekt zusammenstellen
