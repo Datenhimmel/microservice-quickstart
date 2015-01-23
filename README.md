@@ -17,7 +17,8 @@ Unterstützung bei der Installation der einzelnen Technologien ist unter diesen 
 
 Für die Anwendung selber muss Port 8080 frei gehalten werden. Nachdem das Projekt von GitHub geladen wurde, kann es mit Maven gebaut werden:
 
-```mvn install```
+```mvn install``` , wenn im Hintergrund eine MongoDB-Instanz läuft. Wenn nicht, müssen die Tests übersprungen werden: 
+```mvn install -DskipTests``` 
 
 Das `spring-boot-maven-plugin` sorgt dafür, dass im target-Verzeichnis ein sog. "Fat" Jar erstellt wird. 
 Dieses umfasst den gesamten Microservice und kann über die CLI mittels 
