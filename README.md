@@ -1,6 +1,4 @@
-# Microservice-Quickstart 
-
-[![Build Status](https://travis-ci.org/mschuboth/microservice-quickstart.svg?branch=master)](https://travis-ci.org/mschuboth/microservice-quickstart)
+# Microservice-Quickstart [![Build Status](https://travis-ci.org/mschuboth/microservice-quickstart.svg?branch=master)](https://travis-ci.org/mschuboth/microservice-quickstart)
 
 Dieses Projekt umfasst einen einzelnen Microservice auf Basis der Technologien [Spring Boot](https://github.com/spring-projects/spring-boot), [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html), [Spring Data MongoDB](https://github.com/spring-projects/spring-data-mongodb), [AngularJS](https://github.com/angular/angular.js), [Bootstrap](https://github.com/twbs/bootstrap) und [MongoDB](https://github.com/mongodb/mongo).
 
